@@ -1,0 +1,15 @@
+- Criar Repositório no GitHub
+-------------------------------------
+1. git init
+2. git add *.*
+3. git commit -m "mensagem"
+4. git remote add origin https://github.com/doug-pr/teste.git
+5. git push -u origin master
+
+
+ - Atualizar o Repositório no GitHub
+-------------------------------------
+1. git init
+2. git add *.*
+3. git commit -m "mensagem"
+4. git push origin master

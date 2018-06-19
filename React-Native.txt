@@ -1,0 +1,10 @@
+REACT NATIVE
+
+Caso dê erro quando for executar o App:
+1. caso tenha a instalação do App deverá ser desinstalado;
+2. Apagar a pasta build dentro das pastas android e iOS;
+3. Executar o comando: react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
+
+Verificar se está conectado e autorizado o Device:
+1. Na pasta android_sdk/platform-tools Executar o comando: adb devices
+2. Irá aparecer o device e se está autorizado, caso esteja UNAUTHORIZED, ir no celular e desativar e ativar novamente o modo de depuração USB, e dar a permissão;

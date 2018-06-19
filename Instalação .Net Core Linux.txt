@@ -1,0 +1,46 @@
+Instalar curl
+   sudo apt-get install curl
+
+Instalat .Net Core
+   Registrar Chave da Microsoft:
+      curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
+      sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
+      sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/microsoft-ubuntu-artful-prod artful main" > /etc/apt/sources.list.d/dotnetdev.list'
+   Instalar SDK .Net:
+      sudo apt-get install apt-transport-https
+      sudo apt-get update
+      sudo apt-get install dotnet-sdk-2.1.101
+
+Baixar VS Code
+   Instalar VS Code:
+      sudo dpkg -i <file>.deb
+      sudo apt-get install -f #Instalar as dependências
+
+Instalar Node.js:
+   curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+   sudo apt-get install -f
+   sudo apt-get install -y nodejs
+   sudo apt-get install -f
+
+Instalar Bower:
+   sudo npm install -g bower
+   sudo npm install -g bower grunt-cli gulp-cli
+
+Instalar Yeoman:
+   sudo npm install -g yeoman
+   sudo npm install -g yo
+   Instalar Templates no yeoman para geração do esqueleto dos projetos
+      ASP.Net:
+         sudo npm install -g generator-aspnet
+      ASP.Net Core
+         sudo npm install -g generator-aspnetcore
+      ASP.Net Core Single Page Application	
+	 sudo npm install -g generator-aspnetcore-spa
+      Web App
+         sudo npm install -g generator-webapp
+
+Instalar Angular
+   sudo npm install -g @angular/cli
+
+Instalar Templates Single Page Application
+   dotnet new --install Microsoft.AspNetCore.SpaTemplates::*

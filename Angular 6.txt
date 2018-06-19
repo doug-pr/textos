@@ -1,0 +1,15 @@
+//instalar Angular 6
+npm install -g @angular/cli
+
+//criar novo projeto
+ng new nome-projeto
+
+//rodar servidor dentro da pasta
+ng serve
+
+//INSTALAR COMPONENTE
+ng g component 
+
+//add 
+ng g add 
+
