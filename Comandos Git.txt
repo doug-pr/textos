@@ -1,5 +1,5 @@
 - Criar Repositório no GitHub (Criar repositório no site sem o README.md)
------------------------------
+--------------------------------------------------------------------------
 1. echo "# Nome Projeto" >> README.md
 2. git init
 3. git add *.* ou git add .
@@ -8,15 +8,21 @@
 6. git remote add origin https://github.com/doug-pr/nome-do-projeto.git
 7. git push -u origin main
 
-Atualizar o Repositório no GitHub
----------------------------------
+- Push em um Repositório Existente
+-----------------------------------
+1 - git remote add origin https://github.com/doug-pr/nome_do_projeto.git
+2 - git branch -M main
+3 - git push -u origin main
+
+- Atualizar o Repositório no GitHub
+------------------------------------
 1. git init
 2. git add *.* ou git add .
 3. git commit -m "mensagem"
 4. git push origin main
 
-Adicionar arquivos modificados de uma vez
------------------------------------------
+- Adicionar arquivos modificados de uma vez
+--------------------------------------------
 1. git add -A
 
 - Adicionar e commitar ao mesmo tempo, basta adicionar a tag -a
@@ -24,9 +30,9 @@ Adicionar arquivos modificados de uma vez
 1. git commit -a -m "Mensagem do commit"
 
 Configurar VS Code como editor padrão git
------------------------------------------------
+------------------------------------------
 1. git config --global core.editor 'code --wait'
 
 Configuração do Git
--------------------------
+--------------------
 1. git config --global -e
