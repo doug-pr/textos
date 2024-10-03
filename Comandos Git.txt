@@ -13,8 +13,8 @@
 1. git init
 2. git add *.* ou git add .
 3. git commit -m "mensagem"
-4. git branch -M main
-5. git push -u origin main
+4. git branch -M main <- Opcional
+5. git push -u origin main <- origin main Opcional
 
 - Push em um Repositório Existente
 -----------------------------------
