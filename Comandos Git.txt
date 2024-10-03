@@ -8,6 +8,14 @@
 6. git remote add origin https://github.com/doug-pr/nome-do-projeto.git
 7. git push -u origin main
 
+- Push no Projeto Depois de Modificado
+---------------------------------------
+1. git init
+2. git add *.* ou git add .
+3. git commit -m "mensagem"
+4. git branch -M main
+5. git push -u origin main
+
 - Push em um Repositório Existente
 -----------------------------------
 1 - git remote add origin https://github.com/doug-pr/nome_do_projeto.git
