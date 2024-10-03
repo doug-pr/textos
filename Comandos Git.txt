@@ -1,11 +1,11 @@
-- Criar Repositório no GitHub
+- Criar Repositório no GitHub (Criar repositório no site sem o README.md)
 -----------------------------
 1. echo "# Nome Projeto" >> README.md
 2. git init
 3. git add *.* ou git add .
 4. git commit -m "mensagem"
 5. git branch -M main
-6. git remote add origin https://github.com/doug-pr/teste.git
+6. git remote add origin https://github.com/doug-pr/nome-do-projeto.git
 7. git push -u origin main
 
 Atualizar o Repositório no GitHub
