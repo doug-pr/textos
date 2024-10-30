@@ -44,3 +44,7 @@ Configurar VS Code como editor padrão git
 Configuração do Git
 --------------------
 1. git config --global -e
+
+Cancelar um Git add .
+----------------------
+1. git reset
